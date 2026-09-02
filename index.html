@@ -3,211 +3,116 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Milan Prasad Sharma — IT Officer & Educator</title>
 <meta name="description" content="Milan Prasad Sharma — IT Officer, Educator and Technology Professional.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<title>Milan Prasad Sharma | IT Officer & Technology Professional</title>
 <style>
-:root{
- --bg:#070b16;--panel:#0d1324;--panel2:#111a30;--text:#eef4ff;--muted:#9aa8c2;
- --line:rgba(255,255,255,.10);--accent:#4f8cff;--accent2:#7c5cff;
- --white:#fff;--shadow:0 25px 80px rgba(0,0,0,.35);--max:1180px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+:root{--bg:#07101f;--card:#0d192c;--card2:#111f35;--text:#eef5ff;--muted:#9aabc3;--blue:#5b9cff;--violet:#8067ff;--green:#55d99a;--line:rgba(255,255,255,.09);--max:1180px}
 *{box-sizing:border-box;margin:0;padding:0;scroll-behavior:smooth}
-html{background:var(--bg)}
-body{font-family:Inter,Arial,sans-serif;background:
- radial-gradient(circle at 15% 10%,rgba(79,140,255,.12),transparent 28%),
- radial-gradient(circle at 85% 25%,rgba(124,92,255,.10),transparent 30%),var(--bg);
- color:var(--text);line-height:1.7;overflow-x:hidden}
+body{font-family:Inter,Arial,sans-serif;color:var(--text);background:radial-gradient(circle at 10% 5%,rgba(91,156,255,.13),transparent 28%),radial-gradient(circle at 90% 15%,rgba(128,103,255,.12),transparent 30%),var(--bg);line-height:1.7}
 a{text-decoration:none;color:inherit}.container{width:min(var(--max),92%);margin:auto}
-nav{position:fixed;z-index:1000;top:0;left:0;right:0;border-bottom:1px solid var(--line);
- background:rgba(7,11,22,.76);backdrop-filter:blur(18px)}
-.nav{height:76px;display:flex;align-items:center;justify-content:space-between}
-.logo{font-family:"Space Grotesk";font-size:22px;font-weight:700}.logo b{color:var(--accent)}
-.links{display:flex;gap:28px;list-style:none;font-size:14px;font-weight:600;color:#c8d2e5}
-.links a:hover{color:#fff}.menu{display:none;font-size:28px;cursor:pointer}
-.hero{min-height:100vh;padding:145px 0 90px;display:flex;align-items:center;position:relative}
-.grid{display:grid;grid-template-columns:1.08fr .92fr;gap:70px;align-items:center}
-.kicker{display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(79,140,255,.28);background:rgba(79,140,255,.08);
- color:#aecdff;border-radius:999px;padding:8px 13px;font-size:12px;font-weight:700;letter-spacing:.5px;margin-bottom:22px}
-.dot{width:7px;height:7px;border-radius:50%;background:#5ee7a2;box-shadow:0 0 14px #5ee7a2}
-h1{font-family:"Space Grotesk";font-size:clamp(46px,6.5vw,78px);line-height:1.02;letter-spacing:-3px;margin-bottom:20px}
-.gradient{background:linear-gradient(100deg,#fff 15%,#9fc4ff 50%,#9f8cff 90%);-webkit-background-clip:text;background-clip:text;color:transparent}
-.hero h2{font-size:22px;color:#c8d5ea;margin-bottom:17px;font-weight:600}.hero p{max-width:680px;color:var(--muted);font-size:17px}
-.actions{display:flex;gap:12px;flex-wrap:wrap;margin:30px 0}
-.btn{padding:13px 19px;border-radius:11px;border:1px solid var(--line);font-weight:700;font-size:14px;display:inline-flex;align-items:center;gap:8px;transition:.25s}
-.primary{background:linear-gradient(100deg,var(--accent),var(--accent2));border:0;box-shadow:0 10px 35px rgba(79,140,255,.22)}
-.primary:hover{transform:translateY(-3px);box-shadow:0 15px 45px rgba(79,140,255,.32)}
-.ghost{background:rgba(255,255,255,.03)}.ghost:hover{background:rgba(255,255,255,.08);transform:translateY(-3px)}
-.stats{display:flex;gap:35px;margin-top:34px}.stat strong{display:block;font-family:"Space Grotesk";font-size:28px}.stat span{color:var(--muted);font-size:12px}
-.photo-stage{position:relative;display:flex;justify-content:center}
-.photo-stage:before{content:"";position:absolute;width:390px;height:390px;border-radius:50%;background:linear-gradient(135deg,rgba(79,140,255,.23),rgba(124,92,255,.18));filter:blur(1px)}
-.photo-stage:after{content:"";position:absolute;width:310px;height:310px;border:1px solid rgba(255,255,255,.14);border-radius:50%}
-.photo{width:350px;height:420px;object-fit:cover;object-position:center top;border-radius:180px 180px 28px 28px;border:7px solid rgba(255,255,255,.9);
- box-shadow:var(--shadow);position:relative;z-index:2}
-.floating{position:absolute;z-index:3;background:rgba(13,19,36,.86);border:1px solid var(--line);backdrop-filter:blur(12px);
- padding:12px 15px;border-radius:13px;box-shadow:var(--shadow);font-size:12px;color:#dce7fa}
-.f1{left:0;top:16%}.f2{right:-8px;bottom:15%}.floating b{display:block;font-size:14px;color:#fff}
-section{padding:105px 0}.section-head{text-align:center;margin-bottom:50px}
-.eyebrow{font-size:11px;color:#80aaff;font-weight:800;letter-spacing:2px;text-transform:uppercase}
-.section-head h2{font-family:"Space Grotesk";font-size:42px;letter-spacing:-1.5px;margin:5px 0}
-.section-head p{color:var(--muted);max-width:620px;margin:auto}
-.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px}
-.card{background:linear-gradient(145deg,rgba(17,26,48,.9),rgba(10,15,28,.92));border:1px solid var(--line);border-radius:20px;padding:31px;box-shadow:0 15px 50px rgba(0,0,0,.12)}
-.card h3{font-size:21px;margin-bottom:12px}.card p{color:var(--muted)}
-.info{list-style:none;margin-top:14px}.info li{display:flex;justify-content:space-between;gap:15px;padding:11px 0;border-bottom:1px solid var(--line);font-size:14px}
-.info li:last-child{border:0}.info span{color:var(--muted)}
-.skills{background:rgba(255,255,255,.018);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.skill-grid,.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}
-.skill,.service{padding:25px;border-radius:18px;background:rgba(13,19,36,.75);border:1px solid var(--line);transition:.25s}
-.skill:hover,.service:hover{transform:translateY(-5px);border-color:rgba(79,140,255,.38);box-shadow:0 18px 50px rgba(0,0,0,.22)}
-.icon{font-size:27px;margin-bottom:11px}.skill h3,.service h3{font-size:17px;margin-bottom:6px}.skill p,.service p{font-size:13px;color:var(--muted)}
-.experience-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.experience{position:relative;padding:29px 29px 29px 35px}.experience:before{content:"";position:absolute;left:0;top:30px;bottom:30px;width:3px;background:linear-gradient(var(--accent),var(--accent2));border-radius:5px}
-.tag{display:inline-block;color:#9fc4ff;background:rgba(79,140,255,.1);border:1px solid rgba(79,140,255,.2);padding:4px 9px;border-radius:999px;font-size:11px;font-weight:800}
-.experience h3{margin:12px 0 4px;font-size:21px}.experience p{color:var(--muted);font-size:14px}
-.contact{background:linear-gradient(135deg,#0b1530,#10132a);border-top:1px solid var(--line)}
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contact-card{padding:30px;border:1px solid var(--line);border-radius:20px;background:rgba(255,255,255,.035)}
-.contact-item{padding:12px 0;border-bottom:1px solid var(--line)}.contact-item:last-child{border:0}.contact-item small{display:block;color:#80aaff;font-size:10px;font-weight:800;letter-spacing:1.5px}.contact-item a:hover{color:#9fc4ff}
-.socials{display:flex;gap:10px;margin-top:18px}.social{padding:10px 14px;border:1px solid var(--line);border-radius:10px;font-size:13px;font-weight:600}.social:hover{background:rgba(255,255,255,.08)}
-footer{padding:24px;text-align:center;color:#70809d;border-top:1px solid var(--line);font-size:12px}
-.reveal{opacity:0;transform:translateY(20px);transition:.7s}.reveal.show{opacity:1;transform:none}
-@media(max-width:850px){
- .links{display:none;position:absolute;top:76px;left:0;right:0;padding:20px 4%;background:#080d1b;flex-direction:column;gap:13px;border-bottom:1px solid var(--line)}
- .links.active{display:flex}.menu{display:block}.grid,.about-grid,.experience-grid,.contact-grid{grid-template-columns:1fr}
- .hero{text-align:center;padding-top:120px}.hero p{margin:auto}.actions,.stats{justify-content:center}.photo-stage{margin-top:25px}
- .skill-grid,.service-grid{grid-template-columns:1fr 1fr}.photo{width:300px;height:360px}
-}
-@media(max-width:520px){.skill-grid,.service-grid{grid-template-columns:1fr}.stats{gap:20px}.section-head h2{font-size:34px}}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(7,16,31,.82);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between}.logo{font:700 23px "Space Grotesk"}.logo span{color:var(--blue)}
+.nav ul{display:flex;gap:26px;list-style:none;font-size:13px;font-weight:700;color:#c8d5e8}.nav li a:hover{color:#fff}.menu{display:none;font-size:27px}
+.hero{min-height:100vh;padding:145px 0 80px;display:flex;align-items:center}.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:70px;align-items:center}
+.badge{display:inline-flex;align-items:center;gap:9px;padding:7px 13px;border:1px solid rgba(91,156,255,.3);background:rgba(91,156,255,.07);border-radius:999px;color:#acd0ff;font-size:10px;font-weight:800;letter-spacing:.8px;margin-bottom:22px}.dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 14px var(--green)}
+h1{font:700 clamp(47px,6.2vw,78px)/1.02 "Space Grotesk";letter-spacing:-3px;margin-bottom:17px}.gradient{background:linear-gradient(100deg,#fff,#a8cbff 55%,#aa97ff);-webkit-background-clip:text;color:transparent}
+.role{font-size:21px;font-weight:650;color:#d0ddf0;margin-bottom:16px}.hero p{max-width:680px;color:var(--muted);font-size:16px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin:29px 0}.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 18px;border-radius:10px;font-size:13px;font-weight:800;border:1px solid var(--line);transition:.25s}.primary{border:0;background:linear-gradient(100deg,var(--blue),var(--violet));box-shadow:0 12px 35px rgba(91,156,255,.2)}.secondary{background:rgba(255,255,255,.035)}.btn:hover{transform:translateY(-3px)}
+.metrics{display:flex;gap:34px}.metric strong{display:block;font:700 27px "Space Grotesk"}.metric span{font-size:11px;color:var(--muted)}
+.visual{position:relative;display:flex;justify-content:center}.visual:before{content:"";position:absolute;width:390px;height:390px;border-radius:50%;background:linear-gradient(135deg,rgba(91,156,255,.2),rgba(128,103,255,.18));top:20px}.portrait{position:relative;z-index:2;width:340px;height:415px;object-fit:cover;object-position:center top;border-radius:175px 175px 25px 25px;border:7px solid #f5f8ff;box-shadow:0 30px 90px rgba(0,0,0,.45)}
+.float{position:absolute;z-index:3;padding:11px 14px;border-radius:12px;background:rgba(12,23,41,.9);border:1px solid var(--line);box-shadow:0 20px 55px rgba(0,0,0,.28);font-size:11px;color:#b9c9df}.float b{display:block;color:#fff;font-size:13px}.f1{left:0;top:18%}.f2{right:-3px;bottom:14%}
+section{padding:105px 0}.head{text-align:center;margin-bottom:46px}.eyebrow{font-size:10px;font-weight:900;letter-spacing:2px;color:#80afff}.head h2{font:700 40px "Space Grotesk";letter-spacing:-1.5px;margin:5px 0}.head p{max-width:650px;margin:auto;color:var(--muted)}
+.about{display:grid;grid-template-columns:1.15fr .85fr;gap:22px}.card{background:linear-gradient(145deg,rgba(16,30,51,.92),rgba(8,16,30,.95));border:1px solid var(--line);border-radius:19px;padding:31px}.card h3{font-size:21px;margin-bottom:12px}.card p{font-size:14px;color:var(--muted);margin-bottom:13px}.card p:last-child{margin-bottom:0}.profile{list-style:none}.profile li{display:flex;justify-content:space-between;gap:15px;padding:11px 0;border-bottom:1px solid var(--line);font-size:13px}.profile li span{color:var(--muted)}
+.band{background:rgba(255,255,255,.018);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.tile{background:rgba(12,23,41,.8);border:1px solid var(--line);border-radius:17px;padding:24px;transition:.25s}.tile:hover{transform:translateY(-5px);border-color:rgba(91,156,255,.4)}.ico{font-size:25px;margin-bottom:9px}.tile h3{font-size:16px;margin-bottom:5px}.tile p{font-size:12.5px;color:var(--muted)}
+.timeline{display:grid;grid-template-columns:1fr 1fr;gap:20px}.timeline .card{position:relative;padding-left:34px}.timeline .card:before{content:"";position:absolute;left:0;top:28px;bottom:28px;width:3px;border-radius:3px;background:linear-gradient(var(--blue),var(--violet))}.label{font-size:10px;font-weight:900;letter-spacing:1px;color:#9fc4ff}.timeline h3{font-size:20px;margin:9px 0 3px}
+.projects{background:rgba(255,255,255,.018);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.project{padding:25px;border:1px solid var(--line);border-radius:17px;background:rgba(12,23,41,.8)}.project .num{font-size:11px;font-weight:900;color:#80afff}.project h3{font-size:17px;margin:8px 0 6px}.project p{font-size:12.5px;color:var(--muted)}
+.contact{background:linear-gradient(135deg,#0b1830,#11132b)}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contact-card{padding:30px;border:1px solid var(--line);border-radius:19px;background:rgba(255,255,255,.035)}.contact-item{padding:11px 0;border-bottom:1px solid var(--line);font-size:14px}.contact-item:last-child{border:0}.contact-item small{display:block;color:#80afff;font-size:9px;font-weight:900;letter-spacing:1.5px}.socials{display:flex;gap:9px;margin-top:18px}.social{border:1px solid var(--line);border-radius:9px;padding:9px 13px;font-size:12px;font-weight:700}.social:hover{background:rgba(255,255,255,.08)}
+.form{margin-top:20px}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}.form input,.form textarea{width:100%;background:#091426;border:1px solid var(--line);border-radius:10px;padding:12px 13px;color:#fff;font:inherit;font-size:13px;outline:none}.form input:focus,.form textarea:focus{border-color:rgba(91,156,255,.6)}.form textarea{min-height:130px;resize:vertical;margin-top:12px}.send{margin-top:12px;width:100%;cursor:pointer}
+footer{padding:23px;text-align:center;color:#72829c;border-top:1px solid var(--line);font-size:11px}
+.reveal{opacity:0;transform:translateY(18px);transition:.7s}.show{opacity:1;transform:none}
+@media(max-width:850px){.nav ul{display:none;position:absolute;top:76px;left:0;right:0;background:#081120;padding:18px 4%;flex-direction:column;gap:11px;border-bottom:1px solid var(--line)}.nav ul.active{display:flex}.menu{display:block}.hero-grid,.about,.timeline,.contact-grid{grid-template-columns:1fr}.hero{text-align:center}.hero p{margin:auto}.actions,.metrics{justify-content:center}.visual{margin-top:25px}.grid3,.project-grid{grid-template-columns:1fr 1fr}.portrait{width:300px;height:365px}}
+@media(max-width:520px){.grid3,.project-grid,.form-row{grid-template-columns:1fr}.head h2{font-size:33px}.metrics{gap:18px}}
 </style>
 </head>
 <body>
-<nav>
- <div class="container nav">
-  <a class="logo" href="#home">Milan<span>.</span></a>
-  <div class="menu" onclick="toggleMenu()">☰</div>
-  <ul class="links" id="links">
-   <li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#skills">Expertise</a></li>
-   <li><a href="#experience">Experience</a></li><li><a href="#services">Services</a></li><li><a href="#contact">Contact</a></li>
-  </ul>
- </div>
-</nav>
+<nav><div class="container nav"><a class="logo" href="#home">Milan<span>.</span></a><div class="menu" onclick="toggleNav()">☰</div><ul id="nav"><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#expertise">Expertise</a></li><li><a href="#experience">Experience</a></li><li><a href="#projects">Projects</a></li><li><a href="#contact">Contact</a></li></ul></div></nav>
 
-<section class="hero" id="home">
- <div class="container grid">
-  <div class="reveal">
-   <div class="kicker"><span class="dot"></span> IT PROFESSIONAL • EDUCATOR • DIGITAL TECHNOLOGY</div>
-   <h1>Milan Prasad <span class="gradient">Sharma</span></h1>
-   <h2>IT Officer &nbsp;|&nbsp; Part-time Teacher</h2>
-   <p>Building practical digital solutions, supporting technology-driven services and sharing knowledge through teaching. I work across IT support, web development, networking, digital documentation and e-governance.</p>
-   <div class="actions">
-    <a class="btn primary" href="#contact">Let's Connect ↗</a>
-    <a class="btn ghost" href="#experience">View Experience</a>
-   </div>
-   <div class="stats">
-    <div class="stat"><strong>10+</strong><span>Years Teaching</span></div>
-    <div class="stat"><strong>3+</strong><span>Years IT Experience</span></div>
-    <div class="stat"><strong>BSc</strong><span>CSIT Graduate</span></div>
-   </div>
-  </div>
-  <div class="photo-stage reveal">
-   <div class="floating f1"><b>IT Officer</b>Technology & Digital Services</div>
-   <img class="photo" src="milan-profile.png" alt="Milan Prasad Sharma">
-   <div class="floating f2"><b>Educator</b>Practical IT Learning</div>
-  </div>
- </div>
-</section>
+<section class="hero" id="home"><div class="container hero-grid"><div class="reveal">
+<div class="badge"><span class="dot"></span> IT OFFICER • EDUCATOR • TECHNOLOGY PROFESSIONAL</div>
+<h1>Milan Prasad <span class="gradient">Sharma</span></h1>
+<div class="role">IT Officer &nbsp;|&nbsp; Part-time Teacher</div>
+<p>Information Technology professional focused on digital transformation, practical technology solutions, reliable IT services and knowledge sharing through education.</p>
+<div class="actions"><a class="btn primary" href="#contact">Let's Connect ↗</a><a class="btn secondary" href="#projects">Explore My Work</a></div>
+<div class="metrics"><div class="metric"><strong>10+</strong><span>Years Teaching</span></div><div class="metric"><strong>3+</strong><span>Years IT</span></div><div class="metric"><strong>BSc</strong><span>CSIT</span></div></div>
+</div><div class="visual reveal"><div class="float f1"><b>IT Officer</b>Digital Systems & Support</div><img class="portrait" src="milan-profile.png" alt="Milan Prasad Sharma"><div class="float f2"><b>Educator</b>Practical IT Learning</div></div></div></section>
 
-<section id="about">
- <div class="container">
-  <div class="section-head reveal"><div class="eyebrow">01 — Profile</div><h2>About Me</h2><p>A blend of professional IT practice and long-term teaching experience.</p></div>
-  <div class="about-grid">
-   <div class="card reveal"><h3>Technology with purpose.</h3>
-    <p>I am an Information Technology professional focused on using technology to make work more efficient, reliable and accessible. My work includes IT infrastructure and user support, networking, websites, digital records, electronic office systems, data backup and technology-enabled public services.</p>
-    <p style="margin-top:14px">As a part-time teacher, I also enjoy turning technical concepts into practical learning experiences and helping learners develop confidence with computers and digital tools.</p>
-   </div>
-   <div class="card reveal"><h3>Quick Profile</h3>
-    <ul class="info">
-     <li><span>Full Name</span><b>Milan Prasad Sharma</b></li>
-     <li><span>Profession</span><b>IT Officer</b></li>
-     <li><span>Teaching</span><b>Part-time Teacher</b></li>
-     <li><span>Education</span><b>BSc CSIT</b></li>
-     <li><span>Teaching Experience</span><b>10+ Years</b></li>
-     <li><span>IT Experience</span><b>3+ Years</b></li>
-    </ul>
-   </div>
-  </div>
- </div>
-</section>
+<section id="about"><div class="container"><div class="head reveal"><div class="eyebrow">01 — PROFILE</div><h2>About Me</h2><p>Technology, service delivery and education — connected through practical experience.</p></div><div class="about">
+<div class="card reveal"><h3>Professional Profile</h3>
+<p>My name is <b>Milan Prasad Sharma</b>, an Information Technology professional and educator with a strong interest in digital transformation, technology-enabled public services and knowledge sharing. I am passionate about using technology to create practical solutions that improve efficiency, accessibility and the quality of everyday work.</p>
+<p>I have completed a <b>Bachelor of Science in Computer Science and Information Technology (BSc CSIT)</b>, which provided me with a strong foundation in computer science, software development, networking, databases, information systems and modern information technology.</p>
+<p>With more than <b>three years of professional experience as an IT Officer</b>, I have been involved in IT infrastructure, system and network support, troubleshooting, digital services, electronic office practices, document digitization, data backup and technology-related coordination.</p>
+<p>My professional interests include <b>website development, IT support, networking, system administration, e-governance, digital documentation, cybersecurity awareness and IT training</b>. I enjoy developing practical web solutions and helping organizations make effective use of digital technologies.</p>
+<p>Alongside my IT career, I have more than <b>10 years of teaching experience</b>. Teaching has strengthened my communication, mentoring and presentation skills and has given me the opportunity to simplify technical concepts and make learning more practical and engaging.</p>
+<p>I believe technology is most valuable when it solves real problems and creates meaningful improvements. My goal is to continue growing as an IT professional and educator while contributing to meaningful digital transformation and sharing practical knowledge with others.</p>
+</div>
+<div class="card reveal"><h3>Quick Profile</h3><ul class="profile">
+<li><span>Full Name</span><b>Milan Prasad Sharma</b></li><li><span>Profession</span><b>IT Officer</b></li><li><span>Teaching</span><b>Part-time Teacher</b></li><li><span>Education</span><b>BSc CSIT</b></li><li><span>Teaching Experience</span><b>10+ Years</b></li><li><span>IT Experience</span><b>3+ Years</b></li><li><span>Email</span><b>milanprasadsharma@gmail.com</b></li><li><span>Phone</span><b>+977 9812497213</b></li>
+</ul></div></div></div></section>
 
-<section class="skills" id="skills">
- <div class="container">
-  <div class="section-head reveal"><div class="eyebrow">02 — Expertise</div><h2>What I Work With</h2><p>Practical skills developed through professional work and continuous learning.</p></div>
-  <div class="skill-grid">
-   <div class="skill reveal"><div class="icon">🌐</div><h3>Website Development</h3><p>Responsive websites and practical web solutions using modern front-end technologies.</p></div>
-   <div class="skill reveal"><div class="icon">🛠️</div><h3>IT Support</h3><p>Computer, printer, software, operating system installation and troubleshooting.</p></div>
-   <div class="skill reveal"><div class="icon">📡</div><h3>Networking</h3><p>LAN, routers, internet connectivity, network configuration and troubleshooting.</p></div>
-   <div class="skill reveal"><div class="icon">🖥️</div><h3>System Administration</h3><p>Windows systems, user management, maintenance and basic server support.</p></div>
-   <div class="skill reveal"><div class="icon">📁</div><h3>Digital Documentation</h3><p>Document scanning, digitization, electronic records, indexing and backup management.</p></div>
-   <div class="skill reveal"><div class="icon">🏛️</div><h3>E-Governance</h3><p>Electronic office, digital workflows and technology-enabled public service delivery.</p></div>
-   <div class="skill reveal"><div class="icon">🔐</div><h3>Cyber Security</h3><p>Security awareness, safe computing, account protection and basic cyber hygiene.</p></div>
-   <div class="skill reveal"><div class="icon">🎓</div><h3>IT Teaching</h3><p>Computer education, practical training and technology-focused instruction.</p></div>
-   <div class="skill reveal"><div class="icon">🎨</div><h3>Office & Design Tools</h3><p>Documents, spreadsheets, presentations, graphics and digital content preparation.</p></div>
-  </div>
- </div>
-</section>
+<section class="band" id="expertise"><div class="container"><div class="head reveal"><div class="eyebrow">02 — EXPERTISE</div><h2>Professional Expertise</h2><p>Core areas where I apply technology knowledge and practical problem-solving.</p></div><div class="grid3">
+<div class="tile reveal"><div class="ico">🌐</div><h3>Website Development</h3><p>Responsive websites and practical web-based solutions for individuals and organizations.</p></div>
+<div class="tile reveal"><div class="ico">🛠️</div><h3>IT Support & Troubleshooting</h3><p>Computer, printer, software, operating system and user support.</p></div>
+<div class="tile reveal"><div class="ico">📡</div><h3>Network Administration</h3><p>LAN, router, internet connectivity, configuration and troubleshooting.</p></div>
+<div class="tile reveal"><div class="ico">🖥️</div><h3>System Administration</h3><p>System maintenance, configuration, user support and basic server administration.</p></div>
+<div class="tile reveal"><div class="ico">🏛️</div><h3>E-Governance</h3><p>Digital workflows, electronic office systems and technology-enabled public services.</p></div>
+<div class="tile reveal"><div class="ico">📁</div><h3>Digital Documentation</h3><p>Document scanning, digitization, indexing, electronic records and backup management.</p></div>
+<div class="tile reveal"><div class="ico">🔐</div><h3>Cybersecurity Awareness</h3><p>Safe computing practices, account protection and basic cyber hygiene.</p></div>
+<div class="tile reveal"><div class="ico">🎓</div><h3>IT Training</h3><p>Computer literacy, office applications and practical digital skills training.</p></div>
+<div class="tile reveal"><div class="ico">🎨</div><h3>Digital Tools & Design</h3><p>Office applications, presentations, graphics and digital content preparation.</p></div>
+</div></div></section>
 
-<section id="experience">
- <div class="container">
-  <div class="section-head reveal"><div class="eyebrow">03 — Career</div><h2>Experience</h2><p>Professional experience across information technology and education.</p></div>
-  <div class="experience-grid">
-   <div class="card experience reveal"><span class="tag">3+ YEARS • IT</span><h3>IT Officer</h3><p>Supporting IT infrastructure, digital systems, networking, troubleshooting, e-governance, electronic office processes, document digitization, data backup and technology-related coordination.</p></div>
-   <div class="card experience reveal"><span class="tag">10+ YEARS • EDUCATION</span><h3>Part-time Teacher</h3><p>Teaching computer and IT-related subjects, practical digital skills, guiding learners and delivering technology-focused learning and training.</p></div>
-  </div>
- </div>
-</section>
+<section id="experience"><div class="container"><div class="head reveal"><div class="eyebrow">03 — EXPERIENCE</div><h2>Professional Journey</h2><p>Experience across information technology and education.</p></div><div class="timeline">
+<div class="card reveal"><div class="label">3+ YEARS • INFORMATION TECHNOLOGY</div><h3>IT Officer</h3><p>IT infrastructure and system support, networking, troubleshooting, digital services, electronic office practices, document digitization, data backup and technology coordination.</p></div>
+<div class="card reveal"><div class="label">10+ YEARS • EDUCATION</div><h3>Part-time Teacher</h3><p>Teaching computer and IT-related subjects, practical digital skills, mentoring learners and delivering technology-focused training.</p></div>
+</div></div></section>
 
-<section id="services">
- <div class="container">
-  <div class="section-head reveal"><div class="eyebrow">04 — Services</div><h2>Technology Services</h2><p>Areas where I can contribute practical IT knowledge and support.</p></div>
-  <div class="service-grid">
-   <div class="service reveal"><div class="icon">💻</div><h3>Computer & Printer Support</h3><p>Installation, maintenance, configuration and troubleshooting.</p></div>
-   <div class="service reveal"><div class="icon">🌐</div><h3>Website Development</h3><p>Personal, organizational and service-oriented responsive websites.</p></div>
-   <div class="service reveal"><div class="icon">📡</div><h3>Network Support</h3><p>LAN setup, router configuration and connectivity troubleshooting.</p></div>
-   <div class="service reveal"><div class="icon">🗄️</div><h3>Server & System Support</h3><p>Basic server maintenance, configuration and IT infrastructure support.</p></div>
-   <div class="service reveal"><div class="icon">📄</div><h3>Document Digitization</h3><p>Scanning, organizing, indexing and maintaining digital records.</p></div>
-   <div class="service reveal"><div class="icon">🎓</div><h3>IT Training</h3><p>Computer literacy, office applications and practical digital skills.</p></div>
-  </div>
- </div>
-</section>
+<section class="projects" id="projects"><div class="container"><div class="head reveal"><div class="eyebrow">04 — PROJECT AREAS</div><h2>Technology Work</h2><p>Professional areas and solution categories relevant to my IT experience.</p></div><div class="project-grid">
+<div class="project reveal"><div class="num">01</div><h3>Digital Office & E-Governance</h3><p>Supporting electronic workflows, digital records and technology-enabled administrative services.</p></div>
+<div class="project reveal"><div class="num">02</div><h3>Document Digitization</h3><p>Scanning, organizing, indexing and maintaining digital document collections and backups.</p></div>
+<div class="project reveal"><div class="num">03</div><h3>Website Development</h3><p>Designing responsive, accessible and practical websites for personal and organizational needs.</p></div>
+<div class="project reveal"><div class="num">04</div><h3>IT Infrastructure</h3><p>Supporting computers, printers, networks, connectivity and day-to-day technology operations.</p></div>
+<div class="project reveal"><div class="num">05</div><h3>IT Training</h3><p>Practical training in computer operation, office applications and digital technology.</p></div>
+<div class="project reveal"><div class="num">06</div><h3>Data & Backup Management</h3><p>Organizing digital data and applying practical backup and data management practices.</p></div>
+</div></div></section>
 
-<section class="contact" id="contact">
- <div class="container">
-  <div class="section-head reveal"><div class="eyebrow">05 — Contact</div><h2>Let's Connect</h2><p>For professional, technology, collaboration or teaching-related communication.</p></div>
-  <div class="contact-grid">
-   <div class="contact-card reveal">
-    <div class="contact-item"><small>EMAIL</small><a href="mailto:milanprasadsharma@gmail.com">milanprasadsharma@gmail.com</a></div>
-    <div class="contact-item"><small>PHONE</small><a href="tel:+9779812497213">+977 9812497213</a></div>
-   </div>
-   <div class="contact-card reveal">
-    <h3>Find me online</h3><p style="color:var(--muted);margin-top:5px">Connect through my social and professional profiles.</p>
-    <div class="socials">
-     <a class="social" href="https://www.facebook.com/milanprasadsharma" target="_blank" rel="noopener">Facebook ↗</a>
-     <a class="social" href="https://www.linkedin.com/in/milanprasadsharma" target="_blank" rel="noopener">LinkedIn ↗</a>
-    </div>
-   </div>
-  </div>
- </div>
-</section>
+<section><div class="container"><div class="head reveal"><div class="eyebrow">05 — SERVICES</div><h2>What I Can Help With</h2></div><div class="grid3">
+<div class="tile reveal"><div class="ico">💻</div><h3>Computer & Printer Support</h3><p>Installation, configuration, maintenance and troubleshooting.</p></div>
+<div class="tile reveal"><div class="ico">🌐</div><h3>Website Development</h3><p>Modern responsive personal and organizational websites.</p></div>
+<div class="tile reveal"><div class="ico">📡</div><h3>Network Support</h3><p>LAN setup, router configuration and connectivity support.</p></div>
+<div class="tile reveal"><div class="ico">🗄️</div><h3>System & Server Support</h3><p>System maintenance and basic server/infrastructure support.</p></div>
+<div class="tile reveal"><div class="ico">📄</div><h3>Digital Documentation</h3><p>Scanning, digitization, organization and electronic record support.</p></div>
+<div class="tile reveal"><div class="ico">🎓</div><h3>IT Training</h3><p>Practical computer, office application and digital skills training.</p></div>
+</div></div></section>
 
-<footer>© <span id="year"></span> Milan Prasad Sharma. Designed as a personal professional portfolio.</footer>
+<section class="contact" id="contact"><div class="container"><div class="head reveal"><div class="eyebrow">06 — CONTACT</div><h2>Let's Connect</h2><p>For professional communication, technology collaboration, IT support or training.</p></div><div class="contact-grid">
+<div class="contact-card reveal"><div class="contact-item"><small>EMAIL</small><a href="mailto:milanprasadsharma@gmail.com">milanprasadsharma@gmail.com</a></div><div class="contact-item"><small>PHONE</small><a href="tel:+9779812497213">+977 9812497213</a></div><div class="socials"><a class="social" href="https://www.facebook.com/milanprasadsharma" target="_blank">Facebook ↗</a><a class="social" href="https://www.linkedin.com/in/milanprasadsharma" target="_blank">LinkedIn ↗</a></div></div>
+<div class="contact-card reveal"><h3>Send Me a Message</h3><p style="color:var(--muted);font-size:13px">Have a question, project idea or need IT support? Send a message.</p>
+<form class="form" action="https://formspree.io/f/xqpkqbkw" method="POST">
+    <div class="form-row">
+    <input name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+</div><input name="subject" placeholder="Subject" required style="margin-top:12px">
+<textarea name="message" placeholder="Write your message..." required></textarea>
+<button class="btn primary send" type="submit">Send Message →</button></form>
+</div></div></div></section>
+<footer>© <span id="year"></span> Milan Prasad Sharma · IT Officer & Technology Professional</footer>
 <script>
-function toggleMenu(){document.getElementById('links').classList.toggle('active')}
-document.querySelectorAll('.links a').forEach(a=>a.onclick=()=>document.getElementById('links').classList.remove('active'));
+function toggleNav(){document.getElementById('nav').classList.toggle('active')}
+document.querySelectorAll('#nav a').forEach(a=>a.onclick=()=>document.getElementById('nav').classList.remove('active'));
 document.getElementById('year').textContent=new Date().getFullYear();
-const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});
-document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.1});
+document.querySelectorAll('.reveal').forEach(e=>io.observe(e));
 </script>
 </body>
 </html>
