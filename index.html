@@ -33,6 +33,20 @@ footer{padding:23px;text-align:center;color:#72829c;border-top:1px solid var(--l
 .reveal{opacity:0;transform:translateY(18px);transition:.7s}.show{opacity:1;transform:none}
 @media(max-width:850px){.nav ul{display:none;position:absolute;top:76px;left:0;right:0;background:#081120;padding:18px 4%;flex-direction:column;gap:11px;border-bottom:1px solid var(--line)}.nav ul.active{display:flex}.menu{display:block}.hero-grid,.about,.timeline,.contact-grid{grid-template-columns:1fr}.hero{text-align:center}.hero p{margin:auto}.actions,.metrics{justify-content:center}.visual{margin-top:25px}.grid3,.project-grid{grid-template-columns:1fr 1fr}.portrait{width:300px;height:365px}}
 @media(max-width:520px){.grid3,.project-grid,.form-row{grid-template-columns:1fr}.head h2{font-size:33px}.metrics{gap:18px}}
+
+/* Professional refinements */
+::selection{background:var(--blue);color:#fff}
+.nav .logo{letter-spacing:-.7px}
+.hero{position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;inset:auto -15% -55% auto;width:600px;height:600px;border:1px solid rgba(128,103,255,.12);border-radius:50%;pointer-events:none}
+.hero p{line-height:1.9}
+.card,.tile,.project,.contact-card{box-shadow:0 14px 45px rgba(0,0,0,.12)}
+.card h3,.tile h3,.project h3{letter-spacing:-.3px}
+.section-tag{display:inline-block;margin-top:14px;padding:6px 10px;border:1px solid var(--line);border-radius:8px;color:#b9cfff;font-size:11px}
+.profile li b{font-size:12px;text-align:right;overflow-wrap:anywhere}
+.contact-item a:hover{color:var(--blue)}
+@media(max-width:520px){h1{letter-spacing:-2px}.hero{padding-top:125px}.portrait{width:270px;height:330px}.float{font-size:10px}.f1{left:-5px}.f2{right:-5px}}
+
 </style>
 </head>
 <body>
@@ -42,7 +56,8 @@ footer{padding:23px;text-align:center;color:#72829c;border-top:1px solid var(--l
 <div class="badge"><span class="dot"></span> IT OFFICER • EDUCATOR • TECHNOLOGY PROFESSIONAL</div>
 <h1>Milan Prasad <span class="gradient">Sharma</span></h1>
 <div class="role">IT Officer &nbsp;|&nbsp; Part-time Teacher</div>
-<p>Information Technology professional focused on digital transformation, practical technology solutions, reliable IT services and knowledge sharing through education.</p>
+<div class="section-tag">Website Management • Networking • Data Management • Cybersecurity</div>
+<p>Information Technology professional focused on digital transformation, dependable IT support, digital public services, practical training and technology solutions that create measurable value for people and organizations.</p>
 <div class="actions"><a class="btn primary" href="#contact">Let's Connect ↗</a><a class="btn secondary" href="#projects">Explore My Work</a></div>
 <div class="metrics"><div class="metric"><strong>10+</strong><span>Years Teaching</span></div><div class="metric"><strong>3+</strong><span>Years IT</span></div><div class="metric"><strong>BSc</strong><span>CSIT</span></div></div>
 </div><div class="visual reveal"><div class="float f1"><b>IT Officer</b>Digital Systems & Support</div><img class="portrait" src="milan-profile.png" alt="Milan Prasad Sharma"><div class="float f2"><b>Educator</b>Practical IT Learning</div></div></div></section>
@@ -52,6 +67,7 @@ footer{padding:23px;text-align:center;color:#72829c;border-top:1px solid var(--l
 <p>My name is <b>Milan Prasad Sharma</b>, an Information Technology professional and educator with a strong interest in digital transformation, technology-enabled public services and knowledge sharing. I am passionate about using technology to create practical solutions that improve efficiency, accessibility and the quality of everyday work.</p>
 <p>I have completed a <b>Bachelor of Science in Computer Science and Information Technology (BSc CSIT)</b>, which provided me with a strong foundation in computer science, software development, networking, databases, information systems and modern information technology.</p>
 <p>With more than <b>three years of professional experience as an IT Officer</b>, I have been involved in IT infrastructure, system and network support, troubleshooting, digital services, electronic office practices, document digitization, data backup and technology-related coordination.</p>
+<p>I have also completed professional training in <b>website management, cybersecurity, computer networking, server management, data management and data visualization</b> through the Karnali Province Training Academy, Surkhet.</p>
 <p>My professional interests include <b>website development, IT support, networking, system administration, e-governance, digital documentation, cybersecurity awareness and IT training</b>. I enjoy developing practical web solutions and helping organizations make effective use of digital technologies.</p>
 <p>Alongside my IT career, I have more than <b>10 years of teaching experience</b>. Teaching has strengthened my communication, mentoring and presentation skills and has given me the opportunity to simplify technical concepts and make learning more practical and engaging.</p>
 <p>I believe technology is most valuable when it solves real problems and creates meaningful improvements. My goal is to continue growing as an IT professional and educator while contributing to meaningful digital transformation and sharing practical knowledge with others.</p>
@@ -72,9 +88,9 @@ footer{padding:23px;text-align:center;color:#72829c;border-top:1px solid var(--l
 <div class="tile reveal"><div class="ico">🎨</div><h3>Digital Tools & Design</h3><p>Office applications, presentations, graphics and digital content preparation.</p></div>
 </div></div></section>
 
-<section id="experience"><div class="container"><div class="head reveal"><div class="eyebrow">03 — EXPERIENCE</div><h2>Professional Journey</h2><p>Experience across information technology and education.</p></div><div class="timeline">
-<div class="card reveal"><div class="label">3+ YEARS • INFORMATION TECHNOLOGY</div><h3>IT Officer</h3><p>IT infrastructure and system support, networking, troubleshooting, digital services, electronic office practices, document digitization, data backup and technology coordination.</p></div>
-<div class="card reveal"><div class="label">10+ YEARS • EDUCATION</div><h3>Part-time Teacher</h3><p>Teaching computer and IT-related subjects, practical digital skills, mentoring learners and delivering technology-focused training.</p></div>
+<section id="experience"><div class="container"><div class="head reveal"><div class="eyebrow">03 — EXPERIENCE</div><h2>Professional Journey</h2><p>Professional experience in information technology, local government support and education.</p></div><div class="timeline">
+<div class="card reveal"><div class="label">3+ YEARS • INFORMATION TECHNOLOGY</div><h3>IT Officer</h3><p>Supporting IT infrastructure, computer systems, networks, digital services and electronic office practices. Responsibilities include troubleshooting, document digitization, data backup, user support and technology coordination.</p></div>
+<div class="card reveal"><div class="label">10+ YEARS • EDUCATION</div><h3>Part-time Teacher</h3><p>Teaching computer and IT-related subjects, practical digital skills and office applications; mentoring learners and delivering clear, hands-on technology training.</p></div><div class="card reveal"><div class="label">LOCAL GOVERNMENT • DOTE</div><h3>Local Government Profile Supervisor</h3><p>Worked as a volunteer Local Government Profile Supervisor assigned by Tribhuvan University, supporting profile-related data collection and coordination at Shikhar Municipality Office and Singh Rural Municipality Office, Doti.</p></div>
 </div></div></section>
 
 <section class="projects" id="projects"><div class="container"><div class="head reveal"><div class="eyebrow">04 — PROJECT AREAS</div><h2>Technology Work</h2><p>Professional areas and solution categories relevant to my IT experience.</p></div><div class="project-grid">
